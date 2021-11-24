@@ -1,0 +1,30 @@
+// Do not convert native css method
+@import 'variables.css';
+@media (max-width: 380px) {
+
+}
+
+.fadeIn {
+ opacity: 1;
+}
+
+@-webkit-keyframes fadein { @extend .fadeIn; }
+@-moz-keyframes fadein { @extend .fadeIn; }
+@keyframes fadein { @extend .fadeIn; }
+
+@font-face {
+  font-family: 'Open Sans';
+}
+
+// @mixin
+// @include
+// @extend
+// @debug(something);
+
+// Convert Less variables
+$color: '#000';
+$word: 'word';
+$camelCase: 'camelCase';
+$kebab-case: 'kebab-case';
+$snake_case: 'snake_case';
+$complex: unquote("rgba(#{$color}, 0.87)") !default;

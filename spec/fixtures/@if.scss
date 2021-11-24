@@ -1,0 +1,23 @@
+$isActive: false;
+
+@if $isActive {
+  $color: 'red';
+}
+
+@if $isActive == false {
+  $foo: 'bar';
+}
+
+@if ($isActive == false) {
+  html, body {
+    font-size: 14px;
+  }
+}
+
+button {
+  color: $color;
+
+  @if $isActive {
+    font-size: 13px;
+  }
+}

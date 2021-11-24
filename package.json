@@ -1,0 +1,44 @@
+{
+  "name": "less-plugin-sass2less-fork",
+  "version": "0.0.1",
+  "description": "A plugin for less that converts SASS files into LESS. It comes with a cmd utility too.",
+  "main": "lib/plugin.js",
+  "bin": {
+    "sass2less": "./bin/cmd.js"
+  },
+  "scripts": {
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
+  },
+  "author": "wangbricks",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "lodash": "^4.17.2",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.5.2",
+    "jasmine-spec-reporter": "^2.7.0"
+  },
+  "peerDependencies": {
+    "less-plugin-functions": "^0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mediafreakch/less-plugin-sass2less"
+  },
+  "homepage": "https://github.com/mediafreakch/less-plugin-sass2less",
+  "bugs": {
+    "url": "https://github.com/mediafreakch/less-plugin-sass2less/issues"
+  },
+  "keywords": [
+    "less",
+    "sass",
+    "converter",
+    "sass2less",
+    "sass to less",
+    "sass converter",
+    "convert sass to less"
+  ],
+  "license": "MIT"
+}
