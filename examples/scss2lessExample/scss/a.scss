@@ -1,0 +1,15 @@
+@import "./variable.scss";
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+  color: $black;
+}
+@for $i from 20 through 1 {
+  .inner-popover-#{50*$i} {
+    .popover {
+      width: 50px * $i;
+    }
+  }
+}
