@@ -3,9 +3,13 @@
 - for scss2less error；
 - mixin includes scss2less error;
 
+## Usage
+
+npm i less-plugin-sass2less-fork
+
 # original guide
 
-## less-plugin-sass2less
+## less-plugin-sass2less-fork
 
 [![Build Status](https://travis-ci.org/mediafreakch/less-plugin-sass2less.svg?branch=master)](https://travis-ci.org/mediafreakch/less-plugin-sass2less) [![Node version](https://img.shields.io/npm/v/less-plugin-sass2less.svg?style=flat)](https://www.npmjs.com/package/less-plugin-sass2less) [![Coverage Status](https://coveralls.io/repos/github/mediafreakch/less-plugin-sass2less/badge.svg?branch=master)](https://coveralls.io/github/mediafreakch/less-plugin-sass2less?branch=master)
 
@@ -13,7 +17,7 @@ Want to use a UI library written in SASS, re-use it's mixins and variables but y
 
 ### Get it
 
-`npm install less-plugin-sass2less --save-dev`
+`npm install less-plugin-sass2less-fork --save-dev`
 
 ### Usage as a less-plugin
 
@@ -42,7 +46,7 @@ Then simply specify it as a plugin to your less compiler:
 
 ```
 let less = require('less')
-let sass2less = require('less-plugin-sass2less')
+let sass2less = require('less-plugin-sass2less-fork')
 let fs = require('fs')
 let file
 
