@@ -18,7 +18,8 @@
   "devDependencies": {
     "istanbul": "^0.4.5",
     "jasmine": "^2.5.2",
-    "jasmine-spec-reporter": "^2.7.0"
+    "jasmine-spec-reporter": "^2.7.0",
+    "less": "^4.1.2"
   },
   "peerDependencies": {
     "less-plugin-functions": "^0.0.2"

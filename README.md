@@ -1,14 +1,21 @@
-# less-plugin-sass2less
+# Why Fork Reason
+
+- for scss2less error；
+- mixin includes scss2less error;
+
+# original guide
+
+## less-plugin-sass2less
 
 [![Build Status](https://travis-ci.org/mediafreakch/less-plugin-sass2less.svg?branch=master)](https://travis-ci.org/mediafreakch/less-plugin-sass2less) [![Node version](https://img.shields.io/npm/v/less-plugin-sass2less.svg?style=flat)](https://www.npmjs.com/package/less-plugin-sass2less) [![Coverage Status](https://coveralls.io/repos/github/mediafreakch/less-plugin-sass2less/badge.svg?branch=master)](https://coveralls.io/github/mediafreakch/less-plugin-sass2less?branch=master)
 
 Want to use a UI library written in SASS, re-use it's mixins and variables but your entire source code is written in LESS? Sass2Less to the rescue! You can either use the `sass2less` command line utility included in this package or use it as a less-plugin and import `.scss` files into `.less` on-the-fly!
 
-## Get it
+### Get it
 
 `npm install less-plugin-sass2less --save-dev`
 
-## Usage as a less-plugin
+### Usage as a less-plugin
 
 Import any `.scss` file into your existing LESS project like so:
 
@@ -32,6 +39,7 @@ Then simply specify it as a plugin to your less compiler:
 `lessc --sass2less main.less build.css`
 
 **node.js**
+
 ```
 let less = require('less')
 let sass2less = require('less-plugin-sass2less')
@@ -65,7 +73,7 @@ npm install less-plugin-functions --save-dev
 lessc --sass2less --functions main.less build.css
 ```
 
-## Convert SASS files to LESS
+### Convert SASS files to LESS
 
 To convert all your `.scss` files at once into `.less` files, use the command line utility.
 
@@ -82,7 +90,7 @@ sass2less **/*.{scss,sass} 'dist/{dir}/{name}.less'
 
 Available destination-pattern keys includes all the keys returned by `path.parse(filename)` (ie: root, dir, name, base, ext).
 
-## Supported conversions
+### Supported conversions
 
 - `@for`
 - `@extend`
@@ -103,7 +111,7 @@ Available destination-pattern keys includes all the keys returned by `path.parse
 
 There are certain things that work in both compilers and do not need explicit conversion, such as lists.
 
-## Known issues
+### Known issues
 
 - **`@elseif` clauses** Not supported
 - **`!default` attributes** Variables with the same name will not be ignored like in SASS. The most recent takes precedence over the previous one.
