@@ -26,11 +26,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mediafreakch/less-plugin-sass2less"
+    "url": "https://github.com/wangbricks/less-plugin-sass2less-fork"
   },
-  "homepage": "https://github.com/mediafreakch/less-plugin-sass2less",
+  "homepage": "https://github.com/wangbricks/less-plugin-sass2less-fork",
   "bugs": {
-    "url": "https://github.com/mediafreakch/less-plugin-sass2less/issues"
+    "url": "https://github.com/wangbricks/less-plugin-sass2less-fork/issues"
   },
   "keywords": [
     "less",
