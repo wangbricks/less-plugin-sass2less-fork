@@ -1,6 +1,6 @@
 {
   "name": "less-plugin-sass2less-fork",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A plugin for less that converts SASS files into LESS. It comes with a cmd utility too.Support for more ScssToLess syntax.",
   "main": "lib/plugin.js",
   "bin": {
