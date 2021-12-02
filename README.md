@@ -1,7 +1,12 @@
-# Why Fork Reason
+# The Reason of Fork less-plugin-sass2less
 
-- for scss2less error；
-- mixin includes scss2less error;
+- for error；
+- mixin includes error;
+
+# 修改 less-plugin-sass2less 原因
+
+- scss2less for 函数编译 less 失败， 并且 for 函数是 unique
+- mixin includes 编译 less 失败 ，没有执行 include 引入
 
 ## Usage
 
